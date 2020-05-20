@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#3AAFA9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #17252A;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+img.avatar {
+      width: 15%;
+      border-radius: 15%;
+    }
+
+    .close {
+      position: absolute;
+      right: 25px;
+      top: 0;
+      color: #000;
+      font-size: 35px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: red;
+      cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<form action="#" method="post">
+  <div class="container">
+      <center>
+        <img src="logo.png" alt="Avatar" class="avatar">
+        <h1>Register</h1>
+        <p>Please fill your email and password to create an account.</p>
+       <a href="index.html" style="text-decoration: none;"> <span class="close"
+            title="Close Register">&times;</span></a>
+      </center>
+   
+    <hr>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="text" placeholder="Enter Password" name="password" required>
+
+    <hr>
+
+    <button type="submit" onclick="alert('You have successfully registered')" class="registerbtn">Register</button>
+  </div>
+  </form>
+
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SQL</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #17252A;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #17252A;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #17252A;
+}
+
+.aside {
+  background-color: #2B7A78;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  font-size:3vw;
+    color:gold;
+}
+
+.footer {
+  background-color:#66FCF1;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;
+  height:auto;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;height:auto;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.button {
+  border: none;
+  color: #2B7A78;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #DEF2F1;
+  float:right;
+  width:28%;
+  height:50%;
+}
+
+
+
+
+
+
+ 
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #3AAFA9;
+    }
+
+    
+ 
+    
+    
+</style>
+
+</head>
+<body >
+
+<div class="header">
+    <img src="logo.png" alt="logo" width="15%" height="15%" >
+    <a href="index.html"><button class="button">Log out</button></a>
+    <a href="index.html"><button class="button">Home</button></a>
+    
+    
+</div>
+
+<div class="row">
+    <div class="col-3 col-s-3 menu">
+      <ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="v12.html" target="myframe" style="text-decoration: none;"><li>Topics</li></a>
+  <br><br>
+  <a href="https://www.tutorialspoint.com/codingground.htm"   style="text-decoration: none;"> <li> Coding Ground</li></a>
+  <br><br>
+  <a href="http://examradar.com/data-structure-algorithms-mcq-based-online-tests-1/"  target="myframe" style="text-decoration: none;"><li>MCQs</li></a>
+        <br><br>
+        <a href="http://examradar.com/data-structure-algorithms-mcq-based-online-tests-1/"  target="myframe" style="text-decoration: none;"> <li>Quiz</li></a>
+              <br><br>
+              <a href="image.html"target="myframe" style="text-decoration: none;"><li>Case Studies</li>
+           <br><br>
+           <a href="l12.html" target="myframe"  style="text-decoration: none;"> <li>Learning Material</li>
+  
+      </ul>
+      
+    </div>
+
+
+    
+    <div class="col-6 col-s-9">
+        <center>  <h1 >Structured Query Language (SQL)</h1></center>
+        <iframe name="myframe" src="v12.html" height="800px" width="700px" style="border:none;"></iframe> 
+      
+        
+        
+        
+      </div>
+    
+
+  <div class="col-3 col-s-12">
+    <div class="aside "  >
+        
+        <p>Know your Progress</p>
+        <img src="progress.png" width="100%" height="auto" >
+        <br>
+        <p>Get The Certificate</p>
+        <img src="certificate.jpg" width="100%" height="auto" >
+
+
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
